@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+/* Login Page */
+.login-box {
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.login-box button {
+    margin-top: 15px;
+    padding: 8px;
+    width: 97%;
+}
+
+
+
+/* Dashboard */
+.summary-box {
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Table Page */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+}
+
+tbody tr{
+    background-color: lightgray;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
